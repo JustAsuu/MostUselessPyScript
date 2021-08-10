@@ -11,6 +11,7 @@ while Isthereyet == false:
   local newnumb = randint(1, wantednumb * 1.5)
   if currentnumb == wantednumb:
     print("Woah it actually happened and you just ran this and wasted time of your life gg")
+    Isthereyet = true
   elseif currentnum - newnum < 0:
     print("too less")
     currentnum += newnum
